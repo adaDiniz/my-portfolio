@@ -6,45 +6,44 @@ body {
 }
 
 nav{
-background-color: #ffffff;
+background-color: #333F44;
 display: flex;
-width: 80%;
+width: 100%;
 margin: 0 auto;
 }
 
 .simbolo{
-  color: #610094;
+  color: #94F3E4;
    font-size: 30px;
    font-weight: bold;
-   
+   text-align: left;
+   margin-left: 10%;
 }
 
 ul {
-  width: 100%;
   padding: 5px 0;
-  text-align: right;
 }
 
 li {
   display: inline-block;
   font-size: 14px;
-  padding: 10px 5px; 
+  padding: 10px 5px;
 }
 
 a{
   font-size: 15px;
-  color: #470132;
+  color: #94F3E4;
   text-decoration: none;
 }
 
 a:hover{
-  color:#a063c5;
+  color:#b3ffff;
 }
 
 #inicio{
-  width: 70%;
+  width: 100%;
   margin: auto;
-  background-color: #470132;
+  background-color: #1A1A1B;
 }
 
 .divInicio{
@@ -59,22 +58,9 @@ a:hover{
   width: 500px;
   height: 500px;
 }
-
+/*
 .inicioImage{
 
-}
-/* 
-
-.quemSouEu{
-  height: 300px;
-  background-color: #EEEEEE;
-  margin-top: 0;
-}
-
-.textoQuemSouEu {
-  margin: auto;
-  width: 50%;
-  padding-top: 30px;
 }
 
 span{
