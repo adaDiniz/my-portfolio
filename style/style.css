@@ -74,7 +74,7 @@ a:hover{
   padding: 35px 20px;
 }
 
-img{
+.inicioImage img{
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50%;
 }
@@ -87,75 +87,78 @@ h1 {
 
 #sobreMim{
  background-color: #F0F0F0;
- height: 30000px;
+ height: 300px;
  margin: 0;
 }
 
- /*
-span{
-  font-size: 18px;
+
+span{ 
+  color: #FD0054;
 }
 
 h2{
-  color: #610094;
-  margin: 0;
+  color: #888888;
 }
 
-h3{
-  color: #610094;
+/* h3{
   border-bottom: solid 1px #60009429;
   font-family: 'IBM Plex Serif', serif;
   font-size: 20px;
   padding: 25px 0 10px;
   margin: 0;
   text-align: center;
-}
+} */
 
 h4{
-  color: #150050;
-  font-size: 15px;
+  color: #000000;
+  font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
 
 .prg{
   line-height: 1.5;
-  color: #150050;
+  color: #000000;
   font-size: 15px;
   text-align: justify;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 #formação {
-  height: 300px;
+  height: 400px; 
 }
 
-.textoFormação, .textoExperiência {
+#formação h2{ 
+  text-align: center;
+}
+.textoFormação {
   padding-top: 20px;
   width: 80%;
   margin: auto;
+  display: flex;
 }
 
 .esquerdo {
-  display: inline-block;
+  display: block;
+  float: left;
+  margin: 15px 1% 0;
   background-color: #a063c5;
-  width: 49%;
   height: 100px;
+  width: 48%;
   text-align: right;
+
 }
 
 .direito {
-  display: inline-block;
+  display: block;
+  float: right;
+  margin: 15px 1% 0;
   background-color: aqua;
-  width: 49%;
   height: 100px;
-  float:right;
+  width: 48%;
 }
 
-#experiência {
-  height: 300px;
-}
-
+/* 
 .iconesHabilidades {
   padding-top: 30px;;
   text-align: center;
