@@ -5,15 +5,14 @@ body {
   padding: 0;
 }
 
-nav{
+header{
 width: 100%;
 margin: 0 auto;
 background-color: #888888c4;
 position: absolute;
 top: 0;
-border-bottom: 1px solid black;
+border-bottom: 1px solid rgba(0, 0, 0, 0.281);
 }
-
 
 .simbolo{
   color: #FD0054;
@@ -54,6 +53,19 @@ nav a:hover{
   height: 700px;
 }
 
+#inicio button {
+  padding: 15px 20px;
+  background-color: #FD0054;
+  color: #F0F0F0;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+}
+
+#inicio button:hover{
+  background-color:#88888877 ;
+  color: #FD0054;
+}
 .divInicio{
   margin: auto;
   display: flex;
@@ -91,7 +103,12 @@ h1 {
 }
 
 .textoQuemSouEu {
-  
+  width: 80%;
+  margin: auto;
+}
+
+.textoQuemSouEu p {
+  line-height: 1.2;
 }
 
 span{ 
@@ -154,7 +171,7 @@ h4{
 .iconesHabilidades{
   width: 80%;
   margin: auto;  
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -166,6 +183,26 @@ h4{
 .iconesHabilidades li {
   display: inline-block;
   padding: 10px 15px; 
+}
+
+#projetos {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+}
+
+.item img{
+  margin-bottom: 10px;
+}
+.item a{
+  color: #FD0054;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.item a:hover {
+  color: #ff538d;
+  font-size: 17.5px;
 }
 
 
