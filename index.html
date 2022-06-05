@@ -9,35 +9,32 @@
         <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
         <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
         <link rel="stylesheet" href="./style/style.css">
-        <link rel="icon" href="./imagens/favicon (1).ico">
-     
+        <link rel="icon" href="./imagens/icone.png">
       </head>
     
     <body>
-      <header>
-        <nav>
-          <div class="simbolo">
-            &lt;/&gt;
-          </div>
-          <ul>
-            <li>
-              <a href="#sobre">Sobre mim </a>
-            </li>
-            <li>
-              <a href="#formaçao">Formação</a>
-            </li>
-            <li>
-              <a href="#tecnologias">Tecnologias</a>
-            </li>
-            <li>
-              <a href="#projetos">Projetos</a>
-            </li>
-            <li>
-             <a href="#contato">Contato</a>
-            </li>
-          </ul>  
-       </nav>
-    </header>
+      <nav>
+        <ul>
+          <li class="logo">   
+            <img src="./imagens/icone.png" alt="logo">
+          </li>
+          <li>
+            <a href="#sobre">Sobre mim </a>
+          </li>
+          <li>
+            <a href="#formaçao">Formação</a>
+          </li>
+          <li>
+            <a href="#tecnologias">Tecnologias</a>
+          </li>
+          <li>
+            <a href="#projetos">Projetos</a>
+          </li>
+          <li>
+            <a href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
       
     <main>
         <section id="inicio">
@@ -46,8 +43,10 @@
               <p>Hello, meu nome é</p>
               <h1><span>Ada Diniz</span>!</h1>
               <p>Desenvolvedora Front-End</p>
-              <button>Download CV</button>
+              <button><a href="./imagens/Ada Carina Diniz Teodoro - CV.pdf" download>
+                <i class="fa-solid fa-file-arrow-down"></i> Download CV</a></button>
             </div>
+            
             <div class="inicioImage">
               <img src="./imagens/ada.jpeg" alt="selfie" width="400" height="400">
             </div>  
@@ -120,7 +119,7 @@
           <h2>
             <span>&lt;</span>Projetos<span>&gt;</span>
           </h2>
-          <div class="owl-carousel owl-theme">
+          <div class="owl-carousel owl-theme owl-lazy">
             <div class="item">
               <img src="./imagens/tavel.png">  
               <a href="https://adadiniz.github.io/TravelWebsite/" target="_blank">Travel Website</a>
@@ -132,6 +131,12 @@
             <div class="item">
               <img src="./imagens/drums.png">  
               <a href="https://adadiniz.github.io/Dicee-Desafio/" target="_blank">Drums-Desafio</a>
+            </div>
+            <div class="item">
+              <img src="./imagens/projColor.png">  
+              <a href="https://github.com/adaDiniz/Projeto-FormColor" target="_blank">Formulário Colors</a>
+           
+            </div>
             </div>
           </div>
         </section>
@@ -157,10 +162,12 @@
     </main>
     <footer>
       © 2022 por Ada Carina Diniz Teodoro
+      <div> Ícones feitos por <a href="https://www.flaticon.com/br/autores/frey-wazza" title="Frey Wazza"> Frey Wazza </a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com'</a></div>
     </footer>   
  -->
  <script src="./js/owl/jquery.min.js"></script>
  <script src="./js/owl/owl.carousel.min.js"></script>   
  <script src="./js/owl/setup.js"></script>
+ <script src="https://kit.fontawesome.com/b91c04686f.js" crossorigin="anonymous"></script>
 </body>
 </html>
