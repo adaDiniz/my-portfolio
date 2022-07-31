@@ -30,7 +30,7 @@ nav ul {
 
 nav li {
   font-size: 12px;
-  padding: 0 5px 0;
+  padding: 0 10px 0;
   letter-spacing: 0.1rem;
 }
 
@@ -77,30 +77,27 @@ h1{
 }
 
 .inicioTexto button{
-  padding: 10px 30px;
-  background: linear-gradient(to bottom right, #943ee6 0%, #cb5bff 30%, #ff6bd3 60%, #FD0054 100%);
-  animation:  myAnim 6s ease 0s infinite alternate-reverse backwards;
-  border: none;
-  margin: 0 100px;
+  border: 1px solid #6c6c6c81;
+  border-radius: 30px;
+  box-shadow: 1px 1px 6px #666666;
+  color: #ffffff;
+  font-size: 25px;
+  background: #FD0054;
+  padding: 12px 25px 15px 25px;
+  text-decoration: none;
 }
+
+.inicioTexto button:hover {
+  background: #888888;
+  text-decoration: none;
+}
+
 
 .inicioTexto a{
   color: #F0F0F0;
   font-size: 15px;
   letter-spacing: 0.1rem;
   text-decoration: none;
-}
-
-@keyframes myAnim {
-	0% {
-		background-position: left top;
-		background-size: 100%;
-	}
-
-	100% {
-		background-position: left top;
-		background-size: 150%;
-	}
 }
 
 .inicioImage img{
@@ -263,6 +260,8 @@ input {
   border: 1px solid #88888823;
   border-radius: 5px;
   background-color: #FD0054;
+  font-size: 15px;;
+  color: #ffffff;
 }
 
 ::placeholder {
@@ -275,19 +274,32 @@ textarea{
   width: 100%;
   margin-bottom: 5px;
   padding: 10px 0 10px 5px;
-  border: 1px solid #FD0054;
+  border: 1px solid #fd0054;
   border-radius: 5px;
 }
 
 textarea::placeholder{
- color: #FD0054;
+ color: #fd005489;
 }
 
 
 footer{
-  height: 100px;
-  background-color: #cb5bff;
+  height: 80px;
+  background-color: #ffffff;
+  padding-top: 15px;
+  text-align: center;
 }
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #FD0054;
+}
+
 
 
 
